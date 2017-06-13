@@ -1,0 +1,23 @@
+.direct-messages-title {
+    color: var(--app-color-blue-font);
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+#userMenu .menu-trigger-container {
+    text-align: right;
+}
+
+.app-logged-user .flexchild {
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.app-logged-user .display-name {
+    font-size: var(--font-size-normal);
+}
+
+.appHeaderMainTitle {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
