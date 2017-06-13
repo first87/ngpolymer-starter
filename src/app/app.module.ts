@@ -12,7 +12,7 @@ import {AppComponent} from './app.component';
     imports: [
         BrowserModule,
         FormsModule,
-        PolymerModule,
+        PolymerModule.forRoot(),
         AppElementsModule,
         PaperElementsModule,
         IronElementsModule
