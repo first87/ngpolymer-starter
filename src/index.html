@@ -11,7 +11,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <!-- Document-Level Styling -->
-  <custom-style>
+  <custom-style include="iron-flex iron-flex-alignment">
     <style scope="document">
       @font-face {
         font-family: SegoeUI;
@@ -50,17 +50,19 @@
         --app-min-width-desktop: 600px;
         --app-panel-width-desktop: 320px;
 
-        /*font sizes*/
+        /*sizes*/
         --app-font-size-normal: medium;
         --app-font-size-small: small;
         --app-font-size-large: large;
         --app-font-size-input: var(--font-size-normal);
+        --app-button-height-normal: 60px;
 
         /*colors*/
         --app-color-blue: deepskyblue;
         --app-color-blue-font: dodgerblue;
         --app-color-green: green;
-        --app-color-gray: lightgray;
+        --app-color-black: black;
+        --app-color-white: #f7f7f7;
 
         /*borders*/
         --app-border-width-normal: 2px;
@@ -102,16 +104,79 @@
       app-drawer h2 {
         margin: 8px 0 0;
         padding: 18px;
-        font-size: var(--font-size-bigger);
+        font-size: var(--font-size-large);
       }
 
-      app-header {
-        color: var(--dark-theme-text-color);
-        background-color: var(--primary-color);
-      }
       app-drawer-layout:not([narrow]) [drawer-toggle] {
         display: none;
       }
+
+      app-header {
+        background-color: var(--primary-color);
+        color: var(--dark-theme-text-color);
+        height: var(--app-header-height);
+        --app-header-background-front-layer: {
+          background-color: var(--app-color-blue);
+        }
+        --app-header-background-rear-layer: {
+          background-color: var(--app-color-blue);
+        }
+      }
+
+      app-toolbar {
+        top: 35%;
+        --app-toolbar-font-size: var(--font-size-large);
+        height: var(--app-header-height);
+      }
+
+      paper-menu-button {
+        padding: 0px;
+      }
+
+      [main-title] {
+        font-size: var(--font-size-large);
+      }
+
+      .container {
+        @apply --layout-horizontal;
+      }
+
+      .container-vertical {
+        @apply --layout-vertical;
+      }
+
+      .full-width {
+        width: 100%;
+      }
+
+      .flexchild {
+        display: block;
+        @apply --layout-flex;
+      }
+
+      .drawer-content {
+        background-color: var(--app-color-blue);
+        height: 100%;
+        overflow: auto;
+      }
+
+      .menu-content {
+        cursor: pointer;
+        background-color: var(--app-color-white);
+      }
+
+      .menu-item {
+        margin: auto;
+        height: var(--app-button-height-normal);
+        color: var(--app-color-blue-font);
+        border-color: var(--app-color-blue);
+        border-width: var(--app-border-width-normal);
+        border-bottom-style: var(--app-border-style-normal);
+        font-size: var(--font-size-big);
+        min-width: 200px;
+        font-weight: 600;
+      }
+
     </style>
   </custom-style>
 
