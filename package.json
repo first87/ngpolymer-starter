@@ -16,7 +16,7 @@
     "start": "ng serve",
     "clean": "del-cli bower_components && del-cli node_modules",
     "build": "ng build --watch",
-    "build:prod": "ng build --prod && npm run ngu-sw-manifest",
+    "build:prod": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -38,9 +38,7 @@
     "@types/socket.io-client": "1.4.29",
     "angular-translator": "2.1.0",
     "core-js": "2.4.1",
-    "ng-pwa-tools": "0.0.15",
     "rxjs": "5.3.0",
-    "tributejs": "2.3.3",
     "zone.js": "0.8.4"
   },
   "devDependencies": {
