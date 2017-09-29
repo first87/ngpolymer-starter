@@ -1,9 +1,9 @@
 {
-  "name": "polymer-custom-style",
-  "description": "Polymer Custom-Style Demo",
+  "name": "ngpolymer-starter",
+  "description": "A Brand-New Angular+Polymer Project",
   "main": "",
   "authors": [
-    "first87 <hotfly9@gmail.com>"
+    "first87 <firstor87@gmail.com>"
   ],
   "license": "MIT",
   "private": true,

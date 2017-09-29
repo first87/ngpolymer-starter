@@ -1,6 +1,6 @@
-# Polymer Custom Style Demo
+# A Brand-New Angular+Polymer Project
 
-_An example to demonstrate how to apply Polymer's custom-styling to Angular components by utilizing [Origami](https://github.com/hotforfeature/origami), which bridges gaps between the Angular platform and Polymer web components._
+_A brand-new & quick starter project built in Angular, Polymer and [Origami](https://github.com/hotforfeature/origami), which bridges gaps between the Angular platform and Polymer web components._
 
 ## Intro
 
@@ -10,9 +10,9 @@ For details of Polymer's custom-style, please refer to [Style Shadow DOM](https:
 
 ### Libraries
 
-- Angular 4.0.2 +
-- Polymer 2.0 +
-- Origami 1.2.1 +
+- Angular 4.3.2 +
+- Polymer 2.0.0 +
+- Origami 1.2.3 +
 
 ### Browsers
 [x] Chrome
@@ -28,6 +28,6 @@ $ npm install
 $ bower install
 ```
 
-Then open the browser and go through `http://localhost:4200`
+Then open the browser and go through `http://localhost:3000`
 
 Enjoy!

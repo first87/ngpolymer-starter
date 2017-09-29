@@ -1,11 +1,11 @@
 {
-  "name": "polymer-custom-style",
+  "name": "ngpolymer-starter",
   "version": "0.0.1",
   "private": true,
-  "description": "Polymer Custom-Style Demo",
+  "description": "A Brand-New Angular+Polymer Project",
   "repository": {
     "type": "git",
-    "url": "git://github.com/first87/polymer-custom-style.git"
+    "url": "git://github.com/first87/ngpolymer-starter.git"
   },
   "author": {
     "name": "first87",
