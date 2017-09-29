@@ -15,16 +15,17 @@ For details of Polymer's custom-style, please refer to [Style Shadow DOM](https:
 - Origami 1.2.3 +
 
 ### Browsers
-[x] Chrome
-[x] Firefox
-[x] Microsoft Edge
-- Internet Explorer (11 only)
+
+- [x] Chrome
+- [x] Firefox
+- [x] Microsoft Edge
+- [x] Internet Explorer 11
 
 ## Launch
 
 You need to install all required packages and components.
 ```
-$ npm install
+$ yarn install
 $ bower install
 ```
 
