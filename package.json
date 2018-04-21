@@ -5,10 +5,10 @@
   "description": "A Brand-New Angular+Polymer Project",
   "repository": {
     "type": "git",
-    "url": "git://github.com/first87/ngpolymer-starter.git"
+    "url": "git://github.com/firstor/ngpolymer-starter.git"
   },
   "author": {
-    "name": "first87",
+    "name": "firstor",
     "email": "firstor87@gmail.com"
   },
   "scripts": {
